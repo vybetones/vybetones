@@ -3,7 +3,8 @@ node_modules/
 package-lock.json
 
 # Build output
-dist/
+# Note: dist/ is manually committed for GitHub Pages deployment (not in .gitignore)
+# Use "git add -f dist/" to force-add dist folder if needed
 
 # Environment
 .env
