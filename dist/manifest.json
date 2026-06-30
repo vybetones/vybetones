@@ -1,16 +1,21 @@
 {
   "name": "Fretboard Trainer",
-  "short_name": "FretTrainer",
+  "short_name": "Fretboard",
   "description": "Интерактивный тренажёр для изучения нот на грифе гитары",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#09090b",
   "theme_color": "#09090b",
-  "orientation": "any",
+  "background_color": "#18181b",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/guitar.svg",
       "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons.svg",
+      "sizes": "192x192,512x512",
       "type": "image/svg+xml"
     }
   ]
