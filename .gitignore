@@ -33,3 +33,19 @@ coverage/
 # Misc
 *.tsbuildinfo
 .hermes/
+# Hermes / deployment scripts
+*.sh
+!debug_push.sh   # если вдруг какой-то sh всё-таки нужен
+push_*.sh
+debug_push.sh
+push_github.py
+setup-github.sh
+test_*.sh
+push_secure.sh
+
+# Sensitive files
+.gh-token
+*.token
+
+# Temporary / build artifacts (если нужно)
+dist/
