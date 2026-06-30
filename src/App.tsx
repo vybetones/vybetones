@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Fretboard } from './components/Fretboard';
 import { ModeSelector } from './components/ModeSelector';
 import { NoteSelector } from './components/NoteSelector';
